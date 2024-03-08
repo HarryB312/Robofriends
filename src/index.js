@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Hello from './Hello';
+import Card from './Card';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hello tuft='Pick a Rug!'greeting='Welcome React Ninja'/>
+    <div>
+      <Card />
+      <Card /> 
+      <Card />  
+    </div>
+         
   </React.StrictMode>
 );
 
